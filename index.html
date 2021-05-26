@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>FormBase</title>
+</head>
+
+<body>
+    <main class="main_section ">
+        <!--      <aside class="img_aside ">
+            <div>
+                <img src="https://i.pinimg.com/564x/11/0d/fb/110dfbfc4b1bbf6a4b8a47934634581e.jpg" alt="aside ">
+            </div>
+        </aside> -->
+        <div class="step_one hiden ">
+            <section class="step_section">
+                <div class="step_buttons">
+                    <ul>
+                        <li>
+                            <p> <span>1</span> Registrarse</p>
+                        </li>
+                        <li>
+                            <p> <span>2</span> Mensaje</p>
+                        </li>
+                        <li>
+                            <p> <span>3</span> Checkbox</p>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="step_form">
+                    <span class="pass">Step 1/3</span>
+                    <h2>Registrarse</h2>
+                </div>
+            </section>
+            <section class="form_section">
+                <form name="form_data" class="formulario">
+                    <p class="nombre">Nombre Completo <input type="text" name="nombre" size="15" class="name_input" id="form_name" required></p>
+                    <p class="apellido">Apellidos <input type="text" name="apellido" size="15" class="lastname_input" id="form_lastName" required> </p>
+                    <p class="fecha"> Fecha de nacimiento
+                        <input class="date_input" type="date" id="start" name="fecha" id="form_email" min="1960-01-01" max="2021-5-21" required>
+                    </p>
+                    <p class="correo">Correo Electronico <input type="email" name="email" size="25" class="email_input" id="form_email" required></p>
+                    <p class="direccion">Direccion
+                        <input type="text" name="direccion" placeholder="Ingresa tu domicilio" size="40 " id="form_addres " class="addres_input " required>
+                    </p>
+
+                    <br>
+                    <div class="button_step">
+                        <button class="step_next " id="form_button ">Siguiente paso</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <div class="step_two  ">
+            <section class="step_section ">
+                <div class="step_buttons ">
+                    <ul>
+                        <li>
+                            <p> <span>1</span> Registrarse</p>
+                        </li>
+                        <li>
+                            <p> <span>2</span> Mensaje</p>
+                        </li>
+                        <li>
+                            <p> <span>3</span> Checkbox</p>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="step_form ">
+                    <span class="pass ">Step 2/3</span>
+                    <h2>Enviar Mensaje</h2>
+                </div>
+            </section>
+            <section class="form_section ">
+                <form name="form_data " class="formulario_mensaje">
+                    <p class="mensaje">Mensaje</p> <textarea name="message " class="message_input " id="form_message " cols="30 " rows="10 "></textarea>
+                    <div class="orientacion">
+                        <p>Sexo:</p>
+                        <select name="orientation " class="form_sex " id="form_sex " form="form_orientation ">
+                        <option value="Femenino ">Femenino</option>
+                        <option value="Masculino ">Masculino</option>
+                        <option value="other">Otro</option>
+                    </select>
+                    </div>
+                    <div class="civil ">
+                        <input type="radio" id="form_single" name="civil" value="single">
+                        <label for="single">Soltero</label>
+
+                        <input type="radio" id="form_married" name="civil" value="married">
+                        <label for="female">Casado</label>
+
+                        <input type="radio" id="form_divorced" name="civil" value="divorced">
+                        <label for="divorced">Divorciado</label>
+                </form>
+                </div>
+                <br>
+                <div class="button_step">
+                    <button class="second_step " id="form_button ">Siguiente paso</button>
+                </div>
+                </form>
+            </section>
+        </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
