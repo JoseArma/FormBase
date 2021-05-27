@@ -186,14 +186,81 @@ body {
 }
 
 
-/* ASIDE */
+/* TERCER PASO */
 
-.img_aside {
-    grid-column-start: 1;
-    grid-row-start: 1;
+.step_three {
+    position: relative;
+    left: 50%;
+    top: 5%;
+}
+
+.user_title h2 {
+    text-align: center;
+    color: var(--black-color);
+}
+
+.data_user {
+    display: flex;
+}
+
+.data_user input {
+    width: 70%;
+    height: 50%;
+    outline: none;
+}
+
+.profile {
+    border: 5px solid var(--border-color);
+    border-radius: 5px;
+    padding: 5px;
+    width: 60%;
+}
+
+.profile_title {
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--black-color);
+}
+
+.file-select {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.file-select::before {
+    background-color: var(--font-color);
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    content: 'Seleccionar foto';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.file-select input {
+    opacity: 0;
+    width: 200px;
+    height: 32px;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .hiden {
     display: none;
     pointer-events: none;
 }
+
+
+/* ASIDE */
+
+
+/* .img_aside {
+    grid-column-start: 1;
+    grid-row-start: 1;
+} */

@@ -58,7 +58,8 @@
                 </form>
             </section>
         </div>
-        <div class="step_two  ">
+        <!-- -----------SEGUNDO PASO -->
+        <div class="step_two hiden ">
             <section class="step_section ">
                 <div class="step_buttons ">
                     <ul>
@@ -80,7 +81,7 @@
                 </div>
             </section>
             <section class="form_section ">
-                <form name="form_data " class="formulario_mensaje">
+                <form name="form_text " class="formulario_mensaje">
                     <p class="mensaje">Mensaje</p> <textarea name="message " class="message_input " id="form_message " cols="30 " rows="10 "></textarea>
                     <div class="orientacion">
                         <p>Sexo:</p>
@@ -99,6 +100,54 @@
 
                         <input type="radio" id="form_divorced" name="civil" value="divorced">
                         <label for="divorced">Divorciado</label>
+                </form>
+                </div>
+                <br>
+                <div class="button_step">
+                    <button class="second_step " id="form_button ">Siguiente paso</button>
+                </div>
+                </form>
+            </section>
+        </div>
+        </div>
+        <!-- --------TERCER PASO -->
+        <div class="step_three  ">
+            <section class="step_section ">
+                <div class="step_buttons ">
+                    <ul>
+                        <li>
+                            <p> <span>1</span> Registrarse</p>
+                        </li>
+                        <li>
+                            <p> <span>2</span> Mensaje</p>
+                        </li>
+                        <li>
+                            <p> <span>3</span> Checkbox</p>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="step_form ">
+                    <span class="pass ">Step 3/3</span>
+                    <h2>Crea tu usuario</h2>
+                </div>
+            </section>
+            <section class="form_section ">
+                <form name="form_user " class="formulario_usario">
+                    <div class="profile">
+                        <p class="profile_title">Muestranos tu hermosa sonrisa :D</p>
+                        <div class="file-select" id="src-file1">
+
+                            <input type="file" class="input_foto" id="form_picture" name="foto" accept="image/png, image/jpeg">
+                        </div>
+                    </div>
+                    <div class="user_title">
+                        <h2>Datos de usuario</h2>
+                    </div>
+                    <div class="data_user">
+                        <p>Nombre de usuario <input type="text" name="usuario" size="15" class="user_input" id="form_profile" required></p>
+                        <p>Contraseña <input type="password" name="contra" size="15" class="user_input" id="form_pass" required></p>
+                        <p>Confirmar contraseña<input type="password" name="contra_confirm" size="15" class="user_input" id="form_pass_confirm" required></p>
                 </form>
                 </div>
                 <br>
