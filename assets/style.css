@@ -292,6 +292,15 @@ body {
 }
 
 
+/* EVENTOS */
+
+.button_off {
+    pointer-events: none;
+    background-color: var(--letter-color);
+    color: var(--white-color);
+}
+
+
 /* ASIDE */
 
 
